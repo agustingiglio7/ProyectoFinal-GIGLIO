@@ -1,0 +1,182 @@
+[
+    {
+        "id": "abrigo-01",
+        "titulo": "Campera Boca",
+        "imagen": "./img/abrigos/01.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 26000
+    },
+    {
+        "id": "abrigo-02",
+        "titulo": "Campera River",
+        "imagen": "./img/abrigos/02.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "abrigo-03",
+        "titulo": "Campera Adidas",
+        "imagen": "./img/abrigos/03.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 17000
+    },
+    {
+        "id": "abrigo-04",
+        "titulo": "Campera Real Madrid",
+        "imagen": "./img/abrigos/04.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 28000
+    },
+    {
+        "id": "abrigo-05",
+        "titulo": "Campera Argentina",
+        "imagen": "./img/abrigos/05.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 41000
+    },
+    {
+        "id": "camiseta-01",
+        "titulo": "Camiseta Independiente",
+        "imagen": "./img/camisetas/01.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 13000
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "Camiseta Velez",
+        "imagen": "./img/camisetas/02.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "camiseta-03",
+        "titulo": "Camiseta Boca",
+        "imagen": "./img/camisetas/03.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 15000
+    },
+    {
+        "id": "camiseta-04",
+        "titulo": "Camiseta Argentina",
+        "imagen": "./img/camisetas/04.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 32000
+    },
+    {
+        "id": "camiseta-05",
+        "titulo": "Camiseta Argentinos Juniors",
+        "imagen": "./img/camisetas/05.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 12000
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "Camiseta River",
+        "imagen": "./img/camisetas/06.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 15000
+    },
+    {
+        "id": "camiseta-07",
+        "titulo": "Camiseta Racing",
+        "imagen": "./img/camisetas/07.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 12000
+    },
+    {
+        "id": "camiseta-08",
+        "titulo": "Camiseta Banfield",
+        "imagen": "./img/camisetas/08.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas"
+        },
+        "precio": 9700
+    },
+    {
+        "id": "pantalon-01",
+        "titulo": "Short Nike",
+        "imagen": "./img/shorts/01.jpg",
+        "categoria": {
+            "nombre": "Shorts",
+            "id": "shorts"
+        },
+        "precio": 7000
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "Short Boca",
+        "imagen": "./img/shorts/02.jpg",
+        "categoria": {
+            "nombre": "Shorts",
+            "id": "shorts"
+        },
+        "precio": 6000
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "Short River",
+        "imagen": "./img/shorts/03.jpg",
+        "categoria": {
+            "nombre": "Shorts",
+            "id": "shorts"
+        },
+        "precio": 6000
+    },
+    {
+        "id": "pantalon-04",
+        "titulo": "Short Argentina",
+        "imagen": "./img/shorts/04.jpg",
+        "categoria": {
+            "nombre": "Shorts",
+            "id": "shorts"
+        },
+        "precio": 9500
+    },
+    {
+        "id": "pantalon-05",
+        "titulo": "Short Racing",
+        "imagen": "./img/shorts/05.jpg",
+        "categoria": {
+            "nombre": "Shorts",
+            "id": "shorts"
+        },
+        "precio": 5500
+    }
+]
