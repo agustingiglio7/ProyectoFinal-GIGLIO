@@ -1,9 +1,8 @@
-
 :root {
-    --clr-main: #4074b3;
-    --clr-main-light: #a8c8f8;
+    --clr-main: #5682a9;
+    --clr-main-light: #8fb8f4;
     --clr-white: #ffffff;
-    --clr-gray: #d0c5c5;
+    --clr-gray: #eef5f8;
     --clr-red: #ff0000;
 }
 
@@ -25,6 +24,157 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.buscador-container {
+    background-color: transparent;
+    margin-top: 10px; 
+    position: fixed;
+    top: 0;
+    left: 1;
+    right: 0;
+    z-index: 999;
+    padding: 10px;
+  }
+
+
+  .buscador {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .buscador input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .buscador button {
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .buscador button:hover {
+    background-color: #0069d9;
+  }
+
+  #producto-no-encontrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+.logoShop{
+    width: 80%;
+    margin-top: -70px;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.botonRegistro {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 25rem;
+    min-width: 200px;
+    text-decoration: none;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+    animation: pulse 1.5s infinite;
+    position: fixed ;
+    top: 25%;
+    left: 3%;
+    border-radius: 4px;
+    z-index: 9999;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+@keyframes pulse {
+    0% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(256, 256, 256, .1);
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 15px rgba(256, 256, 256, .0);
+    }
+    100% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(256, 256, 256, .0);
+    }
+}
+    
+
+.botonLogin {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 25rem;
+    min-width: 200px;
+    text-decoration: none;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+    animation: pulse 1.5s infinite;
+    position: fixed ;
+    top: 32%;
+    left: 3%;
+    border-radius: 4px;
+    z-index: 9999;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+@keyframes pulse {
+    0% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(256, 256, 256, .1);
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 15px rgba(256, 256, 256, .0);
+    }
+    100% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(256, 256, 256, .0);
+    }
 }
 
 .wrapper {
@@ -389,3 +539,4 @@ main {
         grid-template-columns: 1fr;
     }
 }
+

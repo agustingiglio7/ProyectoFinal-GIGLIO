@@ -111,13 +111,13 @@
     },
     {
         "id": "camiseta-07",
-        "titulo": "Camiseta Racing",
+        "titulo": "Camiseta Atletico Tucuman",
         "imagen": "./img/camisetas/07.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
         },
-        "precio": 12000
+        "precio": 42000
     },
     {
         "id": "camiseta-08",

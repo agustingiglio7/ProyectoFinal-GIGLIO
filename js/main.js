@@ -7,7 +7,6 @@ fetch("./js/productos.json")
         cargarProductos(productos);
     })
 
-
 const contenedorProductos = document.querySelector("#contenedor-productos");
 const botonesCategorias = document.querySelectorAll(".boton-categoria");
 const tituloPrincipal = document.querySelector("#titulo-principal");
@@ -126,3 +125,50 @@ function actualizarNumerito() {
 function openForm() {
     document.getElementById("registration-form").style.display = "block";
 }
+
+const inputBuscador = document.querySelector("#buscador");
+const btnBuscar = document.querySelector("#btn-buscar");
+const resultadoBusqueda = document.querySelector("#resultado-busqueda");
+
+inputBuscador.addEventListener("keyup", () => {
+    const terminoBusqueda = inputBuscador.value.trim().toLowerCase();
+    const productosFiltrados = productos.filter(producto =>
+      producto.titulo.toLowerCase().includes(terminoBusqueda)
+    );
+  
+    if (productosFiltrados.length === 0) {
+      resultadoBusqueda.innerHTML = "Este producto no existe";
+      resultadoBusqueda.style.display = "block";
+    } else {
+      resultadoBusqueda.style.display = "none";
+    }
+  
+    cargarProductos(productosFiltrados);
+});
+
+window.onload = function() {
+    document.getElementById("resultado-busqueda").style.display = "none";
+};
+
+particlesJS.load('particles-js', 'particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
+
+
+const formulario = document.getElementById('registration-form');
+const correoInput = document.getElementById('correo');
+
+formulario.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  if (!correoInput.value.includes('@')) {
+    Swal.fire({
+      title: '¡Error!',
+      text: 'Por favor ingrese un correo electrónico válido',
+      icon: 'error',
+      confirmButtonText: 'Aceptar'
+    });
+  } else {
+    formulario.submit();
+  }
+});
